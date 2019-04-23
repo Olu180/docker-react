@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t olu180/docker-react -f Dockerfile.dev .
+  
+script:
+  - docker run olu180/docker-react np run test -- --coverage
