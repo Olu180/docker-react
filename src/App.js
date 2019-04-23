@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            JESUS is ALIVE!.
+            JESUS is ALIVE! By Ressurection POWER of GOD.
           </p>
           <a
             className="App-link"
